@@ -1,15 +1,15 @@
-koa-starter
+waveshout-server
 ===========
 
-A simple Koajs application starter template. 
+A Node.js backend for [WaveShout](https://github.com/danielkazak/waveshout-fb/) application working with Firebase.
 
 quick start
 =============
 
-**Clone koa-starter:**
+**Clone waveshout-server:**
 
 ```sh
-$ git clone https://github.com/justmyfreak/koa-starter.git
+$ git clone https://github.com/eladkarakuli/waveshout-server.git
 ```
 
 **Install dependencies:**
@@ -19,17 +19,12 @@ $ npm install
 $ npm install --save-dev babel-cli
 ```
 
-**Run koa-starter:**
+**Run waveshout-server:**
 
 ```sh
 $ npm start
 ```
 
-or 
-
-```sh
-$ node --harmony index.js
-```
 Open [http://localhost:3000](http://localhost:3000)
 
 **Run the test:**
@@ -38,18 +33,8 @@ Open [http://localhost:3000](http://localhost:3000)
 $ npm test
 ```
 
-Components
-==========
+**Debug::**
 
-koa-starter uses following npm package : 
-
-* `config` for config handling.
-* `koa-router` for request routing purpose.
-* `koa-static` for handling static content or assets.
-* `koa-views` for template switching.
-* `ect` for default templatin engine due to fast performance.
-
-Resources
-=========
-
-* [https://justmyfreak.com/koa-starter-a-koa-starting-template/](https://justmyfreak.com/koa-starter-a-koa-starting-template/)
+```sh
+$ npm start debug
+```
